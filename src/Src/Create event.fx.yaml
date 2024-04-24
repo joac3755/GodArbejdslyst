@@ -1,0 +1,14 @@
+"'Create event' As screen":
+
+    Button1_8 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        Height: =86
+        OnSelect: =Navigate(Homepage)
+        Text: |-
+            ="Homepage
+            "
+        Width: =218
+        X: =1104
+        Y: =642
+        ZIndex: =1
+

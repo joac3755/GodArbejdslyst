@@ -1,0 +1,46 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2024-04-23T16:43:58.2080000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Vedhæftede filer",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Filnavn med filtypenavn",
+      "{FullPath}": "Fuld sti",
+      "{HasAttachments}": "Har vedhæftede filer",
+      "{Identifier}": "Identifikator",
+      "{IsFolder}": "ErMappe",
+      "{Link}": "Link til element",
+      "{ModerationComment}": "Kommentarer, der er knyttet til indholdsgodkendelsen af dette listeelement",
+      "{ModerationStatus}": "Godkendelsesstatus for indhold",
+      "{Name}": "Navn",
+      "{Path}": "Mappesti",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Sluttoken for udløservindue",
+      "{TriggerWindowStartToken}": "Starttoken for udløservindue",
+      "{VersionNumber}": "Versionsnummer",
+      "Author": "Oprettet af",
+      "Author#Claims": "Oprettet af Claims",
+      "ComplianceAssetId": "Overholdelsesaktiv-id",
+      "Created": "Oprettet",
+      "Editor": "Ændret af",
+      "Editor#Claims": "Ændret af Claims",
+      "Email": "Email",
+      "ID": "Id",
+      "Modified": "Ændret",
+      "Name": "Name",
+      "OData__ColorTag": "Farvemærke",
+      "Title": "Titel"
+    },
+    "DatasetName": "https://powerkea.sharepoint.com/sites/Godarbejdslyst",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Godarbejdslyst",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

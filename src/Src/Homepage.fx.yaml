@@ -1,0 +1,61 @@
+Homepage As screen:
+
+    Button1 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        Height: =86
+        OnSelect: =Navigate('Create volunteer')
+        Text: ="Create volunteer"
+        Width: =218
+        X: =243
+        Y: =162
+        ZIndex: =1
+
+    Button1_1 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        Height: =86
+        OnSelect: =Navigate('View list of volunteers')
+        Text: ="View list of volunteers"
+        Width: =218
+        X: =243
+        Y: =474
+        ZIndex: =2
+
+    Button1_2 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        Height: =86
+        OnSelect: =Navigate('Create event')
+        Text: ="Create event"
+        Width: =218
+        X: =877
+        Y: =162
+        ZIndex: =3
+
+    Button1_3 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        Height: =86
+        OnSelect: =Navigate('View list of events')
+        Text: ="View list of events"
+        Width: =218
+        X: =877
+        Y: =474
+        ZIndex: =4
+
+    Button1_4 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        Height: =86
+        OnSelect: =Navigate('Match volunteer and event')
+        Text: ="Match volunteer and event"
+        Width: =218
+        X: =560
+        Y: =318
+        ZIndex: =5
+
+    Label4 As label:
+        Height: =78
+        Size: =30
+        Text: ="Welcome"
+        Width: =184
+        X: =594
+        Y: =49
+        ZIndex: =6
+
