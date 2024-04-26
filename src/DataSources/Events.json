@@ -1,0 +1,105 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr150_eventses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr150_events",
+    "Name": "Events",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Ejer",
+      "cr150_categoryofevent": "Category of event",
+      "cr150_contactperson": "Contact person",
+      "cr150_date": "Date",
+      "cr150_email": "Email",
+      "cr150_estimatedhours": "Estimated hours",
+      "cr150_events_AsyncOperations": "Systemjob",
+      "cr150_events_BulkDeleteFailures": "Fejl under massesletning",
+      "cr150_events_DuplicateBaseRecord": "Dubleret poster (cr150_events_DuplicateBaseRecord)",
+      "cr150_events_DuplicateMatchingRecord": "Dubleret poster (cr150_events_DuplicateMatchingRecord)",
+      "cr150_events_MailboxTrackingFolders": "Postkassemapper til automatisk sporing",
+      "cr150_events_PrincipalObjectAttributeAccesses": "Feltdeling",
+      "cr150_events_ProcessSession": "Processessioner",
+      "cr150_events_SyncErrors": "Synkroniseringsfejl",
+      "cr150_eventsid": "Events",
+      "cr150_location": "Location",
+      "cr150_name": "Name of event",
+      "cr150_numberofvolunteers": "Number of volunteers",
+      "cr150_phone": "Phone",
+      "cr150_specialneeds": "Special needs",
+      "createdby": "Oprettet af",
+      "createdon": "Oprettet",
+      "createdonbehalfby": "Oprettet af (stedfortræder)",
+      "importsequencenumber": "Importsekvensnummer",
+      "modifiedby": "Ændret af",
+      "modifiedon": "Ændret",
+      "modifiedonbehalfby": "Ændret af (stedfortræder)",
+      "overriddencreatedon": "Posten blev oprettet den",
+      "owningbusinessunit": "Ejende afdeling",
+      "owningteam": "Ejende team",
+      "owninguser": "Ejende bruger",
+      "statecode": "Status",
+      "statuscode": "Statusårsag",
+      "timezoneruleversionnumber": "Versionsnummer for tidszoneregel",
+      "utcconversiontimezonecode": "Tidszonekode for UTC-konvertering",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "Events",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Events (Views)",
+    "Name": "_cr150_events_views",
+    "RelatedEntityName": "Events",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "346bfe76-1427-47a0-b466-63a5b4dda07c": "Inaktive Events",
+      "838656bc-6f70-4876-a8d3-abeed0b0480f": "Events Visning for opslag",
+      "930740eb-440e-4913-98f2-16b4042b81c5": "Aktive Events",
+      "b0dec96c-7aea-4c96-adb3-6b0943e4adca": "Tilknyttet visning til Events",
+      "d0e23ee1-91d7-40c3-8a39-3ef275952c07": "Visning til Avanceret søgning efter Events"
+    }
+  },
+  {
+    "DisplayName": "Status (Events)",
+    "Name": "cr150_events_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Events"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Events",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusårsag (Events)",
+    "Name": "cr150_events_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Events"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Events",
+    "Type": "OptionSetInfo"
+  }
+]
