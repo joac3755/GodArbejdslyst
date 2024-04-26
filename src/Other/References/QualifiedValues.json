@@ -6,6 +6,13 @@
       "Values": {
         "Oplysninger": "36fc3552-71a5-4856-bc57-fb1963a537c4"
       }
+    },
+    {
+      "Kind": "default.cds_cr150_volunteers_forms",
+      "Namespace": "Volunteers (Forms)",
+      "Values": {
+        "Oplysninger": "b387262a-867c-4cff-8199-def5880932a0"
+      }
     }
   ]
 }
