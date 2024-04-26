@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr150_volunteers",
+    "MaxGetRowsCount": 500,
     "Name": "Volunteers",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Ejer",

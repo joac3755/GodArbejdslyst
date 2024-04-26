@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr150_events",
+    "MaxGetRowsCount": 500,
     "Name": "Events",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Ejer",
